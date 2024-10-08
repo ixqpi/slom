@@ -1,0 +1,171 @@
+/* تنسيقات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* تنسيقات صفحة تسجيل الدخول */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/background.mp4');
+    background-size: cover;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+#error-message {
+    color: red;
+}
+
+/* تنسيقات الصفحة الرئيسية */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icons img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nav-icons img:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.info-card {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    text-align: left;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* يمنع تمرير الصفحة */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* يمنع تمرير الصفحة */
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* يجعل الفيديو خلف المحتوى */
+    transform: translate(-50%, -50%);
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* خلفية بيضاء مع شفافية */
+    padding: 20px;
+    border-radius: 10px; /* زوايا دائرية */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* ظل للمربعات */
+    text-align: center; /* توسيط النص */
+    width: 300px; /* عرض محدد للمستطيل */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* زوايا دائرية للمربعات */
+    background-color: rgba(255, 255, 255, 0.8); /* خلفية شفافة للمربعات */
+    transition: background-color 0.3s ease; /* تأثير عند التغيير */
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: rgba(255, 255, 255, 1); /* خلفية غير شفافة عند التركيز */
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c; /* لون زر التسجيل */
+    color: white;
+    border: none;
+    border-radius: 5px; /* زوايا دائرية للزر */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* تأثير عند التغيير */
+}
+
+button:hover {
+    background-color: #4cae4c; /* لون الزر عند التمرير */
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main - Security System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>الزوار</h1>
+        <div class="nav-icons">
+            <img src="images/home.png" alt="Home" onclick="showHome()">
+            <img src="images/notifications.png" alt="Notifications" onclick="showNotifications()">
+            <img src="images/messages.png" alt="Messages" onclick="showMessages()">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="info-card" onclick="showVisitorDetails()">
+            <h3>معلومات الزائر</h3>
+            <p>اسم الزائر: أحمد علي</p>
+            <p>وقت الزيارة: 12:00 PM</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
